@@ -3,7 +3,7 @@ package calc
 import "errors"
 
 // Add returns sum of integers with error
-func Add(numbers ...int) int {
+func Add(numbers ...int) (error, int) {
 
 	sum := 0
 
